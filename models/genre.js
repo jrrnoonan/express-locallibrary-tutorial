@@ -13,6 +13,8 @@ GenreSchema
   return '/catalog/genre/'+this._id;
 });
 
+// Virtual to export Genre names
+
 GenreSchema
 .virtual('genre')
 .get(function () {
